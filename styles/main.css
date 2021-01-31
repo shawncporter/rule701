@@ -1,0 +1,76 @@
+@import "./colors/colors.css";
+@import "./fonts/fonts.css";
+
+/* global styles */
+body {
+    background-color: var(--color-gray-lightest);
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: var(--color-black);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 15px;
+    color: var(--color-gray-dark);
+    line-height: 20px;
+}
+
+a {
+    text-decoration: underline;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.p1 {
+    padding: 1em 0;
+}
+
+.p1-left {
+    padding-left: 1em;
+}
+
+input, label {
+    display:block; 
+}
+
+label {
+    padding-bottom: 1em;
+}
+
+input {
+    border: 2px solid var(--color-input);
+    height: 40px;
+    padding: 0 1em;
+    font-size: 15px;
+    color: var(--color-input-text);
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+        box-shadow: 0 0 0 1pt var(--color-input-focused);
+}
+
+.labelName {
+    margin-right:20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-black);
+}
+

@@ -1,0 +1,22 @@
+/* Color hex codes to reuse across app */
+
+:root {
+    /* color palette */
+    --color-primary: #53B58D;
+    --color-red: #EB5757;
+
+    /* shade colors */
+    --color-white: #FFFFFF;
+    --color-gray-lightest: #F9FAFA;
+    --color-gray-light: #D6E0DC;
+    --color-gray-dark: #6C7471;
+    --color-black: #0F2319;
+
+    /* Toast messages */
+    --color-toast-red: #FDEEEE;
+
+    /* Input fields */
+    --color-input: #EFF5F3;
+    --color-input-focused: #B2C5BD;
+    --color-input-text: #9CAAA5;
+}

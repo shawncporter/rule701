@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Rule 701</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="./styles/main.css">
+<link rel="stylesheet" href="./styles/rule701.css">
+
+<body>
+
+    <section class="container">
+        <section class="error-toast">
+            <img src="images/warning.svg" alt="Warning" />
+            <p>The Rule 701 calculation may be inaccurate because there are options without issuance dates on your cap
+                table. These options are excluded from the calculations. To fix this error, <a href="">add an issuance
+                    date to all options</a>.
+            </p>
+        </section>
+        <section class="rule-info p1">
+            <h1>Rule 701</h1>
+            <p>Rule 701 is a safe harbor exemption created by the Securities and Exchange Commission (SEC) that allows
+                companies to issue stock options without the time and expense of registration of the stock under the
+                Securities Act. Pulley checks if your company qualifies for Rule 701 exception. <a href="">Learn
+                    more</a>
+            </p>
+        </section>
+        <section class="rule-criteria p1">
+            <h2>Rule 701 Criteria</h2>
+            <div class="rule-criteria-inputs">
+                <div class="labelName">
+                    <label for="name">Reporting Year End <span style="color: red">*</span></label>
+                    <input id="name" type="text" value="1/3/2021" name="name" size="15">
+                </div>
+                <div class="labelName">
+                    <label for="name">Total Assets</label>
+                    <input id="name" type="text" value="$1,000,000" name="name" size="30">
+                </div>
+                <div class="labelName">
+                    <label for="name">Reporting Year End <span style="color: red">*</span></label>
+                    <input id="name" type="text" value="1/3/2021" name="name" size="15">
+                </div>
+                <div class="labelName">
+                    <label for="name">Total Oustanding Common Shares <span style="color: red">*</span></label>
+                    <input id="name" type="text" value="" name="name" size="30">
+                </div>
+            </div>
+            <div class="rule-criteria-qualifications">
+                <h2>Congratulations! You’re exempt, no further action is required.</h2>
+                <div class="rule-criteria-question question-green">
+                    <img src="images/check-mark.svg" alt="Check mark" />
+                    <div class="p1-left">
+                        <h3>Is the aggregate sales price of securities less than $1 million?</h3>
+                        <p>$40 Aggregate Sales < $1,000,000</p>
+                    </div>
+                </div>
+                <div class="rule-criteria-question question-green">
+                    <img src="images/check-mark.svg" alt="Check mark" />
+                    <div class="p1-left">
+                        <h3>Is the aggregate sales price of securities issued in the past 12 months less than 15% of the
+                            Total Assets?</h3>
+                        <p>$40 Aggregate Sales < $150,000 of Assets</p>
+                    </div>
+                </div>
+                <div class="rule-criteria-question question-red">
+                    <img src="images/fail.svg" alt="Check mark" />
+                    <div class="p1-left">
+                        <h3>Is the number of securities less than 15% of the Total Outstanding Number of Shares for
+                            that share class?</h3>
+                        <p>1,000,100,000,108,001,000,010 Securities Sold < 0 Securities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="securities p1">
+            <h2>Securities Granted Between Feb 1, 2020 - Jan 31, 2021</h2>
+            <p>No securities granted in that time frame.</p>
+        </section>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+@import "./colors/colors.css";
+@import "./fonts/fonts.css";
+
+/* Rule 701 styles */
+.container {
+    max-width: 960px;
+    margin: 5em auto;
+    background-color:  var(--color-white);
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px #EFF5F3;
+    padding: 2em;
+}
+
+/* error toast message */
+.error-toast {
+    display: flex;
+    margin: auto;
+    padding: 0.5em 1.5em;
+    border-radius: 8px;
+    background-color: var(--color-toast-red);
+    font-size: 14px;
+}
+
+.error-toast img {
+    padding-right: 1em;
+}
+
+.error-toast a {
+    text-decoration: underline;
+    color: var(--color-red);
+    font-weight: 500;
+}
+
+.error-toast p {
+    color: var(--color-red);
+}
+
+/* Rule info section */
+
+.rule-info {
+    border-bottom: 1px solid var(--color-gray-light);
+}
+
+.rule-info p {
+    max-width: 800px;
+}
+
+/* Rule criteria */
+
+.rule-criteria {
+    border-bottom: 1px solid var(--color-gray-light);
+}
+
+.rule-criteria-inputs {
+    display: flex;
+}
+
+.rule-criteria h2{
+    padding-bottom: 1em;
+}
+
+.rule-criteria-qualifications {
+    padding-bottom: 1em;
+}
+
+.rule-criteria-qualifications h2 {
+    color: var(--color-primary);
+    padding-top: 2em;
+    padding-bottom: 0;
+}
+
+.rule-criteria-question {
+    display: flex;
+    padding: 1.5em;
+    background-color: var(--color-gray-lightest);
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+}
+
+.question-green h3 {
+    margin: 0;
+}
+
+.question-green p {
+    color: var(--color-primary);
+    margin: 0.2em 0 0 0;
+    font-size: 15px;
+}
+
+.question-red h3 {
+    margin: 0;
+}
+
+.question-red p {
+    color: var(--color-input-text);
+    margin: 0.2em 0 0 0;
+    font-size: 15px;
+}
+
+/* Securities section */
+
+.securities p {
+    font-size: 15px;
+}
